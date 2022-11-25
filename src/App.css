@@ -1,0 +1,41 @@
+*{
+  margin:0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body{
+  background-color: #f5f6fa;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App{
+  padding: 20px;
+  display: flex;
+justify-content: space-around;
+}
+.left{
+  flex: 0.7;
+  padding: 50px;
+  
+}
+.right{
+  flex: 0.3;
+}
+
+@media (max-width:990px){
+
+.App{
+  flex-direction: column;
+}
+}

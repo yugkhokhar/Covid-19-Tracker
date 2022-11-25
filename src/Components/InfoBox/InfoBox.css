@@ -1,0 +1,17 @@
+@media (max-width:990px)
+{
+  .InfoBox{
+    margin-right: 20px;
+  }
+}
+
+.infoBoxred{
+background-color: red;
+}
+.infoBox-selected{
+  background-color: greenyellow;
+}
+
+.notred-recovered{
+  color: greenyellow;
+}

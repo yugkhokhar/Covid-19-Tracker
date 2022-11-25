@@ -1,0 +1,21 @@
+.Table{
+  margin-top: 10px;
+  height: 400px;
+  color:#6a5d5d; 
+  overflow: scroll;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.Table>tr{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+
+.Table > tr:nth-of-type(odd){
+  background-color: #f3f2f8;
+}

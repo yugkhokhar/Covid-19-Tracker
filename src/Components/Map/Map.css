@@ -1,0 +1,38 @@
+.Map{
+  height: 400px;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.Map .leaflet-container{
+  height: 100%;
+}
+
+.info-flag{
+  height: 60px;
+  width: 100%;
+  background-size:cover;
+  border-radius:8px;  
+}
+
+.info-name{
+  font-weight: bold;
+margin-top: 5px;
+}
+
+.info-cases{
+  font-weight: bold;
+margin-top: 5px;
+}
+.info-recovered{
+  font-weight: bold;
+margin-top: 5px;
+}
+.info-death{
+  font-weight: bold;
+margin-top: 5px;
+}
